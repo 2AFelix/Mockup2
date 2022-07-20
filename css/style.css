@@ -1,1 +1,395 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+/* ----------------------------------Header---------------------------------------- */
+header{
+    background-color: #303036;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+}
+header h1{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 2rem;
+    color: white;
+}
+header nav{
+    display: flex;
+    margin: 0.5rem;
+    align-items: center;
+    align-self: flex-end;
+}
+header ul{
+    list-style-type: none;
+    text-align: center;
+}
+header li{
+    display: inline-block;
+}
+header a{
+    margin: 1rem 2rem;
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    border-bottom: 2px solid #2375fbb7;
+}
+/* _________________________________________________________________________________________ */
+/* --------------------------------------------Main--------------------------------------------- */
+body{
+    font-style: italic;
+    width: 100vmax;
+}
+main h2{
+    font-style: normal;
+    font-size: 1.1rem;
+}
+main h3{
+    font-style: normal;
+    font-size: 1rem;
+}
+main p{
+    font-size: 0.8rem;
+}
+#paralax{
+    height: 60vh;
+    width: 100%;
+    background: url(../media/moderne.jpg) no-repeat fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#joseph{
+    width: 80vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#paralax img{
+    height: 20vmax;
+    width: 20vmax;
+    border-radius: 50%;
+}
+#paralax h1{
+    font-size: 6rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: rgb(38, 38, 38);
+    text-shadow: 1px 3px 0 #1b4fa1b7, 1px 13px 5px #5f728f;
+}
+h2{
+    border-bottom: 5px solid #54545e;
+}
+/* --------------------------------------Partie compétence------------------------------------- */
+#partieComp{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.parties{
+    width: 80vmax;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#competences{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.competence{
+    width: 45%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #2375fbb7;
+    box-shadow: 0 0 5px 0 skyblue;
+}
+.competence figure{
+    margin-bottom: 1rem;
+}
+.competence figcaption{
+    text-align: center;
+}
+.description{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.competence img{
+    height: 10vmax;
+    width: 15vmax;
+}
+/*______________________________________________________________________________________________ */
+#partieForm img, #experiences img{
+    height: 125px;
+    width: 175px;
+}
+/* -----------------------------------Partie Formations---------------------------------------- */
+#partieForm{
+    height: 90vh;
+    width: 100%;
+    background-color: #303036;
+    display: flex;
+    margin-top: 2em;
+}
+#spartiesForm{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#spartiesForm h2{
+    color: white;
+}
+.formation{
+    border-radius: 7px;
+    padding: 0.5rem;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+.date{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.date p{
+    font-style: normal;
+} 
+.spartie{
+    width: 80%;
+    height: 100%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.spartie img{
+    height: 6vmax;
+    width: 15vmax;
+}
+/* _____________________________________________________________ */
+/* --------------------------------Partie Expérience Portfolio------------------------------ */
+#partiesExpPro{
+    height: 100vh;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+#partieXP{
+    height: 45%;
+    width: 80vmax;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#experiences{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.experience{
+    width: 42%;
+    height: 95%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7a7a8a;
+    border-radius: 17px;
+    color: azure;
+}
+#partiePro{
+    height: 45%;
+    width: 80vmax;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#projets{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.projet{
+    min-height: 35vmin;
+    width: 20%;
+    border: 1px solid #2375fbb7;
+    box-shadow: 0 0 5px 0 skyblue;
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projet aside{
+    width: 13vmax;
+}
+.projet img{
+    height: 10vmax;
+    width: 14vmax;
+    padding: 0.5rem;
+}
+.projet h3{
+    text-align: center;
+    padding: 0.5rem;
+}
+aside p:first-of-type{
+    margin: 0.5rem;
+    font-style: normal;
+}
+/* __________________________________________________________ */
+/* ---------------------------Partie Contact-------------------------- */
 
+#partieContact{
+    height: 70vh;
+    background: url(../media/moderne.jpg) no-repeat fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact{
+    height: 80%;
+    width: 70vmax;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.form{
+    width: 60%;
+}
+.form textarea{
+    width: 100%;
+}
+#infoPlus{
+    width: 60%;
+    display: flex;
+}
+#infoPlus p{
+    font-size: 1.1rem;
+    margin: 0 1rem;
+}
+/* __________________________________________________________ */
+/* ----------------------- Partie Loisirs---------------------- */
+#loisirs{
+    width: 70vmax;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#logos{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 25%);
+    justify-items: center;
+}
+.gridItems{
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+.gridItems span{
+    font-style: normal;
+    font-size: 3rem;
+}
+.gridItems p{
+    margin: 1rem 4rem;
+}
+/* __________________________________________________________ */
+/* ---------------------------- Footer ------------------------- */
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0 1rem;
+    height: 15vh;
+    background-color: #303036;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer p{
+    text-align: center;
+    color: rgb(213, 213, 213);
+}
+footer span{
+    font-style: normal;
+    font-weight: bolder;
+}
+form{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.cookies{
+    padding: 0.5rem 0;
+    width: 7vmax;
+    background-color: rgb(41, 219, 255);
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+input{
+    animation: dezoom .5s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes dezoom{
+    0%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+input:hover{
+    animation: zoom .4s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
